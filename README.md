@@ -17,7 +17,13 @@ We develop our codes in the following environment:
 - MMSemgmentation==1.2.2
 - MMPretrain==1.0.0
 
-### Experimental Results
+### Pretrained models
+
+Please download the pretrained MUN model from [here](https://pan.baidu.com/s/1LA0Uh72qDUhe9De4aJczUQ?pwd=5qjs) (password: 5qjs) and put it in the demo folder.
+
+
+
+### Experimental results
 
 
 
