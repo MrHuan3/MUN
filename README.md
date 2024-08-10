@@ -32,7 +32,7 @@ Yet to complete...
 
 ### How to run the codes
 
-1. Install [MMSegmentaion](https://github.com/open-mmlab/mmsegmentation) and [MMPretrain](https://github.com/open-mmlab/mmpretrain) follow the official tutorial.
+1. Install [MMSegmentaion](https://github.com/open-mmlab/mmsegmentation), [MMPretrain](https://github.com/open-mmlab/mmpretrain) and [MMDetection](https://github.com/open-mmlab/mmdetection) follow the official tutorial.
 2. Move the files provided here to the folder corresponding to MMSegmentation.
 3. Run the codes in demo/test.ipynb.
 
