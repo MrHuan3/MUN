@@ -18,6 +18,7 @@ We develop our codes in the following environment:
 - Pytorch==2.0.1
 - MMSemgmentation==1.2.2
 - MMPretrain==1.0.0
+- MMDetection==3.3.0
 
 ### Pretrained models
 
