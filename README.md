@@ -28,7 +28,26 @@ Please download the pretrained MUN model from [here](https://pan.baidu.com/s/1LA
 
 ### Experimental results
 
-Yet to complete...
+|          Methods          |    NIST16    |  CASIA v1.0  |   IMD2020    |  CocoGlide   |     Wild     |
+| :-----------------------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+|    **RGB-N**(CVPR’18)     |    0.764     |    0.795     |      -       |      -       |      -       |
+|  **ManTra-Net**(CVPR’19)  |    0.795     |    0.817     |    0.748     |    0.778     |    0.677     |
+|     **SPAN**(ECCV’20)     |    0.840     |    0.797     |    0.750     |    0.475     |      -       |
+|   **MVSS-Net**(ICCV’21)   |      -       |    0.815     |    0.814     |    0.654     |    0.768     |
+|  **PSCC-Net**(TCSVT’22)   |    0.855     |    0.829     |    0.806     |    0.777     |    0.745     |
+| **ObjectFormer**(CVPR’22) |    0.872     |    0.843     |    0.821     |      -       |      -       |
+|    **TANet**(TCSVT’23)    | <u>0.898</u> |    0.853     |    0.849     |      -       | <u>0.832</u> |
+|   **TBFormer**(SPL’23)    |    0.847     |    0.955     |    0.863     |    0.747     |    0.783     |
+|     **HiFi**(CVPR’23)     |    0.869     |    0.866     |    0.834     |      -       |      -       |
+|    **TruFor**(CVPR’23)    |    0.839     |    0.833     |    0.818     |    0.752     |      -       |
+|   **CSR-Net**(AAAI’24)    |    0.883     |    0.881     |    0.854     |      -       |      -       |
+|   **NRL-Net**(AAAI’24)    |  **0.900**   |    0.872     |    0.852     |      -       |      -       |
+|       **MUN**(Ours)       |    0.857     |  **0.967**   | <u>0.885</u> | <u>0.811</u> |    0.805     |
+|      **MUN\***(Ours)      |    0.861     | <u>0.962</u> |  **0.897**   |  **0.815**   |  **0.843**   |
+
+
+The bold entities denote the best results per column and the underlined ones denote the second best results. * denotes
+that the DNA data augmentation method is performed. AUC scores are reported.
 
 ### How to run the codes
 
