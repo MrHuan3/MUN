@@ -22,7 +22,7 @@ We develop our codes in the following environment:
 
 ### Pretrained models
 
-Please download the pretrained MUN model from [here](https://pan.baidu.com/s/1LA0Uh72qDUhe9De4aJczUQ?pwd=5qjs) (password: 5qjs) and put it in the demo folder.
+Please download the pretrained MUN model from [Google Drive](https://drive.google.com/file/d/1Lww1Y3BX-DwzybwehSgdOv-yDNF1Pgm_/view?usp=drive_link) or [Baidu Drive](https://pan.baidu.com/s/1LA0Uh72qDUhe9De4aJczUQ?pwd=5qjs) (password: 5qjs), and put it in the demo folder.
 
 
 
