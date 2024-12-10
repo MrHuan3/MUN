@@ -1,6 +1,8 @@
 # MUN: Image Forgery Localization Based on M<sup>3</sup> Encoder and UN Decoder
 
-This is the PyTorch implementation for **MUN**.
+**MUN** is accepted by **AAAI 2025**!
+
+---
 
 ### Abstract
 
@@ -8,9 +10,9 @@ Image forgeries can entirely change the semantic information of an image, and ca
 
 ![overview](overview.png)
 
-### Environment
+---
 
-------
+### Environment
 
 We develop our codes in the following environment:
 
@@ -20,11 +22,13 @@ We develop our codes in the following environment:
 - MMPretrain==1.0.0
 - MMDetection==3.3.0
 
+---
+
 ### Pretrained models
 
 Please download the pretrained MUN model from [Google Drive](https://drive.google.com/file/d/1Lww1Y3BX-DwzybwehSgdOv-yDNF1Pgm_/view?usp=drive_link) or [Baidu Drive](https://pan.baidu.com/s/1LA0Uh72qDUhe9De4aJczUQ?pwd=5qjs) (password: 5qjs), and put it in the demo folder.
 
-
+---
 
 ### Experimental results
 
@@ -49,16 +53,34 @@ Please download the pretrained MUN model from [Google Drive](https://drive.googl
 The bold entities denote the best results per column and the underlined ones denote the second best results. * denotes
 that the DNA data augmentation method is performed. AUC scores are reported.
 
+---
+
 ### How to run the codes
 
 1. Install [MMSegmentaion](https://github.com/open-mmlab/mmsegmentation), [MMPretrain](https://github.com/open-mmlab/mmpretrain) and [MMDetection](https://github.com/open-mmlab/mmdetection) follow the official tutorial.
 2. Move the files provided here to the folder corresponding to MMSegmentation.
 3. Run the codes in demo/test.ipynb.
 
+---
+
 ### Datasets
 
 You can download the training dataset from [link](https://github.com/free1dom1/TBFormer).
 
+---
+
 ### Citation
 
-Yet to complete...
+If you find our code useful, please generously cite our paper.
+
+```
+@inproceedings{
+Liu2024mun,
+title={{MUN}: Image Forgery Localization Based on M\${\textasciicircum}{\textbackslash}textbf\{3\}\$ Encoder and {UN} Decoder},
+author={Yaqi Liu, Shuhuan Chen, Haichao Shi, Xiao-Yu Zhang, Song Xiao and Qiang Cai},
+booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
+year={2024}
+}
+```
+
+
