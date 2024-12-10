@@ -75,11 +75,11 @@ If you find our code useful, please generously cite our paper.
 
 ```
 @inproceedings{
-Liu2024mun,
+Liu2025mun,
 title={{MUN}: Image Forgery Localization Based on M\${\textasciicircum}{\textbackslash}textbf\{3\}\$ Encoder and {UN} Decoder},
 author={Liu, Yaqi and Chen, Shuhuan and Shi, Haichao and Zhang, Xiao-Yu and Xiao, Song and Cai, Qiang},
 booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
-year={2024}
+year={2025}
 }
 ```
 
