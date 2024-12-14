@@ -43,9 +43,11 @@ Please download the pretrained MUN model from [Google Drive](https://drive.googl
 |    **TANet**(TCSVT’23)    | <u>0.898</u> |    0.853     |    0.849     |      -       | <u>0.832</u> |
 |   **TBFormer**(SPL’23)    |    0.847     |    0.955     |    0.863     |    0.747     |    0.783     |
 |     **HiFi**(CVPR’23)     |    0.869     |    0.866     |    0.834     |      -       |      -       |
+|    **ERMPC**(CVPR'23)     |    0.895     |    0.876     |    0.856     |      -       |      -       |
 |    **TruFor**(CVPR’23)    |    0.839     |    0.833     |    0.818     |    0.752     |      -       |
 |   **CSR-Net**(AAAI’24)    |    0.883     |    0.881     |    0.854     |      -       |      -       |
 |   **NRL-Net**(AAAI’24)    |  **0.900**   |    0.872     |    0.852     |      -       |      -       |
+|  **MGQFormer**(AAAI'24)   |    0.862     |    0.886     |    0.883     |      -       |      -       |
 |       **MUN**(Ours)       |    0.857     |  **0.967**   | <u>0.885</u> | <u>0.811</u> |    0.805     |
 |      **MUN\***(Ours)      |    0.861     | <u>0.962</u> |  **0.897**   |  **0.815**   |  **0.843**   |
 
@@ -76,7 +78,7 @@ If you find our code useful, please generously cite our paper.
 ```
 @inproceedings{
 Liu2025mun,
-title={{MUN}: Image Forgery Localization Based on M\${\textasciicircum}{\textbackslash}textbf\{3\}\$ Encoder and {UN} Decoder},
+title={{MUN}: Image Forgery Localization Based on M^3 Encoder and {UN} Decoder},
 author={Liu, Yaqi and Chen, Shuhuan and Shi, Haichao and Zhang, Xiao-Yu and Xiao, Song and Cai, Qiang},
 booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
 year={2025}
