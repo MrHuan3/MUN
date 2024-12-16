@@ -43,7 +43,6 @@ Please download the pretrained MUN model from [Google Drive](https://drive.googl
 |    **TANet**(TCSVT’23)    | <u>0.898</u> |    0.853     |    0.849     |      -       | <u>0.832</u> |
 |   **TBFormer**(SPL’23)    |    0.847     |    0.955     |    0.863     |    0.747     |    0.783     |
 |     **HiFi**(CVPR’23)     |    0.869     |    0.866     |    0.834     |      -       |      -       |
-|    **ERMPC**(CVPR'23)     |    0.895     |    0.876     |    0.856     |      -       |      -       |
 |    **TruFor**(CVPR’23)    |    0.839     |    0.833     |    0.818     |    0.752     |      -       |
 |   **CSR-Net**(AAAI’24)    |    0.883     |    0.881     |    0.854     |      -       |      -       |
 |   **NRL-Net**(AAAI’24)    |  **0.900**   |    0.872     |    0.852     |      -       |      -       |
