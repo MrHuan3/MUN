@@ -66,7 +66,7 @@ that the DNA data augmentation method is performed. AUC scores are reported.
 
 ### Datasets
 
-You can download the training dataset from [link](https://github.com/free1dom1/TBFormer).
+You can download the training dataset from [link](https://www.kaggle.com/datasets/hanhan0104/mydata).
 
 ---
 
