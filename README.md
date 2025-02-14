@@ -75,9 +75,8 @@ You can download the training dataset from [link](https://www.kaggle.com/dataset
 If you find our code useful, please generously cite our paper.
 
 ```
-@inproceedings{
-Liu2025mun,
-title={{MUN}: Image Forgery Localization Based on M^3 Encoder and {UN} Decoder},
+@inproceedings{Liu2025mun,
+title={{MUN}: Image Forgery Localization Based on $\textbf{M}^3$ Encoder and {UN} Decoder},
 author={Liu, Yaqi and Chen, Shuhuan and Shi, Haichao and Zhang, Xiao-Yu and Xiao, Song and Cai, Qiang},
 booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
 year={2025}
