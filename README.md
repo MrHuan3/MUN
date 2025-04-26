@@ -1,12 +1,12 @@
-# MUN: Image Forgery Localization Based on M<sup>3</sup> Encoder and UN Decoder
+# MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder
 
-**MUN** is accepted by **AAAI 2025**!
+**MUN** is accepted by **AAAI 2025**! And this is a PyTorch implementation of **MUN** proposed by our paper "[MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder](https://ojs.aaai.org/index.php/AAAI/article/view/32606)"
 
 ---
 
 ### Abstract
 
-Image forgeries can entirely change the semantic information of an image, and can be used for unscrupulous purposes. In this paper, we propose a novel image forgery localization network named as MUN, which consists of an M<sup>3</sup> encoder and a UN decoder. Firstly, the M<sup>3</sup> encoder is constructed based on a Multi-scale Max-pooling query module to extract Multi-clue forged  features. Noiseprint++ is adopted to assist the RGB clue, and  its deployment methodology is  discussed. A Multi-scale Max-pooling Query (MMQ) module is proposed to integrate RGB and noise features. Secondly, a novel UN decoder is proposed to extract hierarchical features from both top-down and bottom-up directions, reconstructing both high-level and low-level features at the same time. Thirdly, we formulate an  IoU-recalibrated Dynamic Cross-Entropy (IoUDCE) loss to dynamically adjust the weights on forged regions according to IoU which can adaptively balance the influence of authentic and forged regions. Last but not least, we propose a data augmentation method, i.e., Deviation Noise Augmentation (DNA), which acquires accessible prior knowledge of RGB distribution to improve the generalization ability. Extensive experiments on publicly available datasets show that MUN outperforms the state-of-the-art works.
+Image forgeries can entirely change the semantic information of an image, and can be used for unscrupulous purposes. In this paper, we propose a novel image forgery localization network named as MUN, which consists of an M³ encoder and a UN decoder. Firstly, the M³ encoder is constructed based on a Multi-scale Max-pooling query module to extract Multi-clue forged  features. Noiseprint++ is adopted to assist the RGB clue, and  its deployment methodology is  discussed. A Multi-scale Max-pooling Query (MMQ) module is proposed to integrate RGB and noise features. Secondly, a novel UN decoder is proposed to extract hierarchical features from both top-down and bottom-up directions, reconstructing both high-level and low-level features at the same time. Thirdly, we formulate an  IoU-recalibrated Dynamic Cross-Entropy (IoUDCE) loss to dynamically adjust the weights on forged regions according to IoU which can adaptively balance the influence of authentic and forged regions. Last but not least, we propose a data augmentation method, i.e., Deviation Noise Augmentation (DNA), which acquires accessible prior knowledge of RGB distribution to improve the generalization ability. Extensive experiments on publicly available datasets show that MUN outperforms the state-of-the-art works.
 
 ![overview](overview.png)
 
@@ -66,7 +66,7 @@ that the DNA data augmentation method is performed. AUC scores are reported.
 
 ### Datasets
 
-You can download the training dataset from [link](https://www.kaggle.com/datasets/hanhan0104/mydata).
+You can download the training dataset from [Kaggle](https://www.kaggle.com/datasets/hanhan0104/mydata).
 
 ---
 
