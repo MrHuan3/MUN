@@ -1,6 +1,6 @@
 # MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder
 
-**MUN** is accepted by **AAAI 2025**! And this is a PyTorch implementation of **MUN** proposed by our paper "[MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder](https://ojs.aaai.org/index.php/AAAI/article/view/32606)"
+**MUN** is accepted by **AAAI 2025**! And this is a PyTorch implementation of **MUN** proposed by our paper "[MUN: Image Forgery Localization Based on M³ Encoder and UN Decoder](https://ojs.aaai.org/index.php/AAAI/article/view/32606)".
 
 ---
 
